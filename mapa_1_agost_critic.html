@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2c0aba1b4039534813c63078680d55b0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2c0aba1b4039534813c63078680d55b0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2c0aba1b4039534813c63078680d55b0 = L.map(
+                "map_2c0aba1b4039534813c63078680d55b0",
+                {
+                    center: [41.6, 2.16],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_59c1d38b761f4240c83a10340159ccc2 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_59c1d38b761f4240c83a10340159ccc2.addTo(map_2c0aba1b4039534813c63078680d55b0);
+        
+    
+            var circle_marker_8f633b18958138736002d1bbf66c5145 = L.circleMarker(
+                [41.6338, 2.1622],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.7313029372635445, "stroke": true, "weight": 3}
+            ).addTo(map_2c0aba1b4039534813c63078680d55b0);
+        
+    
+        var popup_3752d7ea1fae362b2db27e7424b9a4b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c29e013b1e5cb79f742f27d989ed0b6 = $(`<div id="html_1c29e013b1e5cb79f742f27d989ed0b6" style="width: 100.0%; height: 100.0%;"><b>Caldes de Montbui</b><br>Previsió Agosto: 0.193 incendis/mes</div>`)[0];
+                popup_3752d7ea1fae362b2db27e7424b9a4b4.setContent(html_1c29e013b1e5cb79f742f27d989ed0b6);
+            
+        
+
+        circle_marker_8f633b18958138736002d1bbf66c5145.bindPopup(popup_3752d7ea1fae362b2db27e7424b9a4b4)
+        ;
+
+        
+    
+    
+            var circle_marker_4147b32e6760bfd238fb4554d9edb244 = L.circleMarker(
+                [41.5878, 2.1794],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.58128194965206, "stroke": true, "weight": 3}
+            ).addTo(map_2c0aba1b4039534813c63078680d55b0);
+        
+    
+        var popup_5cde6a83056079d884dcd2c650c2abb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_401823f59d53d6d21fec75a01e45a4b7 = $(`<div id="html_401823f59d53d6d21fec75a01e45a4b7" style="width: 100.0%; height: 100.0%;"><b>Palau-solità i Plegamans</b><br>Previsió Agosto: 0.515 incendis/mes</div>`)[0];
+                popup_5cde6a83056079d884dcd2c650c2abb0.setContent(html_401823f59d53d6d21fec75a01e45a4b7);
+            
+        
+
+        circle_marker_4147b32e6760bfd238fb4554d9edb244.bindPopup(popup_5cde6a83056079d884dcd2c650c2abb0)
+        ;
+
+        
+    
+    
+            var circle_marker_d1a757daf1ecd9b33d987b6f41f666f8 = L.circleMarker(
+                [41.5574, 2.1524],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.5330743429304, "stroke": true, "weight": 3}
+            ).addTo(map_2c0aba1b4039534813c63078680d55b0);
+        
+    
+        var popup_ef1539c4ef768655c44f66de3e236799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb39446b77b5c990c329f719a0135c5e = $(`<div id="html_fb39446b77b5c990c329f719a0135c5e" style="width: 100.0%; height: 100.0%;"><b>Polinyà</b><br>Previsió Agosto: 0.688 incendis/mes</div>`)[0];
+                popup_ef1539c4ef768655c44f66de3e236799.setContent(html_fb39446b77b5c990c329f719a0135c5e);
+            
+        
+
+        circle_marker_d1a757daf1ecd9b33d987b6f41f666f8.bindPopup(popup_ef1539c4ef768655c44f66de3e236799)
+        ;
+
+        
+    
+    
+            var circle_marker_f3ae1a33dc25534106606d0915f27d9e = L.circleMarker(
+                [41.6874, 2.1627],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.8801988219461789, "stroke": true, "weight": 3}
+            ).addTo(map_2c0aba1b4039534813c63078680d55b0);
+        
+    
+        var popup_563decb5e7907059fe0db11750988029 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2f56570f41b2e2ea197b54500ca4fd4 = $(`<div id="html_a2f56570f41b2e2ea197b54500ca4fd4" style="width: 100.0%; height: 100.0%;"><b>Sant Feliu de Codines</b><br>Previsió Agosto: 0.022 incendis/mes</div>`)[0];
+                popup_563decb5e7907059fe0db11750988029.setContent(html_a2f56570f41b2e2ea197b54500ca4fd4);
+            
+        
+
+        circle_marker_f3ae1a33dc25534106606d0915f27d9e.bindPopup(popup_563decb5e7907059fe0db11750988029)
+        ;
+
+        
+    
+    
+            var circle_marker_7aa80f3565b2fbca5ba0d43a80a992b1 = L.circleMarker(
+                [41.5347, 2.1834],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.637587790324048, "stroke": true, "weight": 3}
+            ).addTo(map_2c0aba1b4039534813c63078680d55b0);
+        
+    
+        var popup_af0de0a8401ce68128d72d51e7fa5927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43624593cf7b43a1c0b886340bda1744 = $(`<div id="html_43624593cf7b43a1c0b886340bda1744" style="width: 100.0%; height: 100.0%;"><b>Santa Perpètua de Mogoda</b><br>Previsió Agosto: 0.466 incendis/mes</div>`)[0];
+                popup_af0de0a8401ce68128d72d51e7fa5927.setContent(html_43624593cf7b43a1c0b886340bda1744);
+            
+        
+
+        circle_marker_7aa80f3565b2fbca5ba0d43a80a992b1.bindPopup(popup_af0de0a8401ce68128d72d51e7fa5927)
+        ;
+
+        
+    
+    
+            var circle_marker_31bdf3e8fcce8064fbf8a674dac55d10 = L.circleMarker(
+                [41.6094, 2.1352],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.778416876425826, "stroke": true, "weight": 3}
+            ).addTo(map_2c0aba1b4039534813c63078680d55b0);
+        
+    
+        var popup_f996440c204cbc4fdaf737e95851a8ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34f43001317e6a325d33bd0271cef41d = $(`<div id="html_34f43001317e6a325d33bd0271cef41d" style="width: 100.0%; height: 100.0%;"><b>Sentmenat</b><br>Previsió Agosto: 0.144 incendis/mes</div>`)[0];
+                popup_f996440c204cbc4fdaf737e95851a8ca.setContent(html_34f43001317e6a325d33bd0271cef41d);
+            
+        
+
+        circle_marker_31bdf3e8fcce8064fbf8a674dac55d10.bindPopup(popup_f996440c204cbc4fdaf737e95851a8ca)
+        ;
+
+        
+    
+</script>
+</html>
